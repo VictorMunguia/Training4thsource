@@ -1,0 +1,9 @@
+
+public class enumeracionClass2 {
+	public static void main(String[] args) {
+		for(enumeracionClass gente/*Primero nombramos una variable de tipo enumeracionClass la cual va a almacenar los objetos*/: enumeracionClass.values() /*Aqui ponemos el arreglo, en este caso es la clase y el metodo values para sacar todos los valores*/) {//Utilizamos el for para recorrer arays
+			System.out.printf("%s\t%s\t%s\n", gente,gente.getDesc(),gente.getAno());
+		}
+	}
+
+}

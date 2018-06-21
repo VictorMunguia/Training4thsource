@@ -1,0 +1,6 @@
+
+public class finalAtributos {
+	private int sum;
+	private final int NUMBER;
+	
+}

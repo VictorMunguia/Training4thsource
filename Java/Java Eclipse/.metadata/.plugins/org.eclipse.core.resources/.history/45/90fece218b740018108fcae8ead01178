@@ -1,0 +1,15 @@
+
+public class toString {
+	
+	private int mes;
+	private int dia;
+	private int ano;
+	
+	
+	public toString(int m,int d, int y) {
+		this.mes = m;
+		this.dia = d;
+		this.ano = a;
+	}
+
+}

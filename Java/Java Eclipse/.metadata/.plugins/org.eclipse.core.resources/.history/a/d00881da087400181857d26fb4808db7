@@ -1,0 +1,21 @@
+
+public class timeClass {
+	private int hora;
+	private int minuto;
+	private int segundo;
+	
+	
+	public void setTime(int h, int m, int s) {
+		if(h >=0 && h<=24){
+			h = 0 ;
+		}
+		
+		if(m >=0 && m<=60){
+			m = 0 ;
+		}
+		
+		if(s >=0 && s<=60){
+			s = 0 ;
+		}
+	}
+}

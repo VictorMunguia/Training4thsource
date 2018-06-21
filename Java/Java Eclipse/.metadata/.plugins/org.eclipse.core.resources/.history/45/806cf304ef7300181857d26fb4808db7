@@ -1,0 +1,8 @@
+import java.util.Random;//Invocamos la libreria para crear numeros aleatorios
+
+public class numerosRandom {
+	public static void main(String[] args) {
+		
+	}
+
+}

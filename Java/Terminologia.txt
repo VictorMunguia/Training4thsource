@@ -1,0 +1,168 @@
+TERMINOLOGIA JAVA---------------------------
+
+METODO MAIN:
+El metodo main en java es un estandar que se utiliza por la maquina virtual
+maquina virtual de java, para iniciar la ejecucion de cualquier programa
+, este metodo se conoce como punto de entrada de la aplicacion java, este meto
+es inalterable, hablando en aspectos como que tiene que ser estatico, su parametro de entrada 
+siempre tiene que ser un array de strings, puede ser nombrado como queramos no necesariamente args.
+
+METODOS ESTATICOS:
+Los metodos estaticos no dependen del objeto el cual los tiene, un ejemplo es, cuando
+creamos un metodo de tipo estatico no podemos pedirle que imprima o sume o haga uso de los atributos del
+objeto, esto debido a que los metodos estaticos no pueden hacer uso del objeto, sin embargo un metodo normal
+si puede hacer uso de los atributos del objeto, debido a que si depende del mismo. Cuando mandamos a llamas un metodo
+estatico, lo podemos hacer directamente desde la clase por ejemplo.(Los metodo estaticos pueden ahcer uso de las variables estaticas.)
+
+Esta es la forma en como un metodo normal puede ser invocado.
+Persona p1 = new Persona();
+
+p1.Comer();
+
+Esta es la forma en como se invoca un metodo estatico, no es necesario inicializar el objeto, directamente con la clase es como,
+podemos invocarlo.
+Persona.Comer2();
+
+
+ATRIBUTOS PUBLICOS:
+Puedes modificar su valor desde cualquier clase o parte del programa, normalmente son los tipo de atributo mas inseguros.
+
+ATRIBUTO PRIVADO:
+Estos atributos solo puedes cambiar su valor desde la misma clase en la que fueron declarados, se suele utilizar metodos de acceso a estos atributos
+para modificar su valor en diferentes partes del programa o clases.
+
+ATRIBUTOS PROTEGIDOS:
+Los protegiso pueden ser modificados en clases muy espesificas, como por ejemplo en la herencia de dos clases, se puede hacer uso de los 
+atributos protegidos.
+
+CLASE:
+Una clase es la estructura d eun objeto, es decir, define todos los elementos que componen un objeto, por lo tanto un objeto es el resultado
+de una clase, el objeto tambien es conocido como instancia, instancia de una clase, el objeto se compone de dos partes, atributos y metodos.
+
+CONSTRUCTOR:
+El constructor es un metodo que lleva el mismo nombre de la clase el cual nos permite instanciar un objeto definiendo de primeras los atributos que
+contiene este objeto, el metodo no tiene que retornar nada, nisquiera void.
+
+
+METODOS GET Y SET:
+Son simples metodos que se utilizan e las clases, para poder mostrar y modificar informacion de los atributos de la misma clase
+siempre tienen que ser publicos debido que queremos acceder a ellos fuera de la clase.
+
+public void setEdad(int e){
+    Edad = e;
+}
+
+public int getEdad(){
+    return Edad;
+}
+
+
+SOBRECARGA DE METODOS Y CONSTRUCTORES:
+La sobrecarga de metodos es la creacion de varios metododos con el mismo nombre pero con diferente lista de tipos de parametros,
+java utiliza el numero y tipo de parametros para seleccionar cual definicion de metodo tiene que ejecutar, java diferencia los metodos sobrecargados 
+con base en el numero y tipo de parametros o argumentos que tiene el metodo y no por el tipo que devuelve, tambien es posible tener sobrecarga de constructores.
+
+SOBREESCRITURA DE METODOS Y CONSTRUCTORES:
+Cuando se tiene una clase que hereda de otra clase, todos los metodos y atributos se heredan, pero tal vez la clase que hereda estos metodos
+necesita tener un metodo que tiene el mismo nombre que la clase que se esta heredando, el echo de tener un metodo con el mismo nombre, con el mismo
+numero de parametros pero que ejecuta un procedimiento diferente se le llama sobreescritura de metodo.
+
+PROCEDIMIENTO:
+Es el conjunto de isntrucciones que cumplen una tarea
+
+FUNCION
+Es un procedimiento pero con la diferencia que este retorna un valor
+
+CLASE:
+Es la estructura de un objeto, contiene atributos y metodos.
+
+METODO:
+Puede ser un procedimiento o una funcion, la diferencia es que el metodo solo puede pertenecer a una clase.
+
+
+public class ConsoleTest
+{
+    public void Saludo()
+    {
+        Console.WriteLine("¡Hola!");
+    }
+
+    public int Suma(int a, int b)
+    {
+        return a + b;
+    }
+}
+
+
+En este ejemplo,
+
+ConsoleTest es una clase
+Saludo es un método y un procedimiento. Como no devuelve un valor es tipo void
+Suma es un método y una función
+
+
+PARAMETRO:
+Hace referencia a las variables que se piden cuando declaramos un metodo.
+
+ARGUMENTO:
+Se refiere al valor que se envia cuando mandamos a llamar el metodo.
+
+PALABRA RESERVADA THIS:
+Cuando los parametros de un constructor tienen el mismo nombre que los atributos de la clase, utilizamos la palabra reservada this, con el fin 
+de hacer referencia al objeto propio de la clase y no al parametro del constructor.
+
+COMPOSICION:
+Cuando creamos una clase llamada carro, es posible mandar a llamar cada parte del carro como si fueran atributos,
+como por ejemplo atributo llamado rueda1 del tipo rueda, atributo llamado puerta1 del tipo puerta etc.., todos estos atributos especiales
+no son mas que otras clases con sus respectivos atributos y metodos, el invocar una clase como artibuto en otra clase se le llama composicion.
+
+VARIABLES\ATRIBUTOS ESTATICOS:
+Se definen como esos atributos o variables que se comparte con todos los demas atributos o objetos, un ejemplo es, crear un programa
+que lleve el conteno de los miembros de un club, puedes crear 3 atributos para almacenar el nombre, el apellido y el numero de miembro de tipo destatico este ultimo 
+al crear diferentes personas, todas tienen atributos separados para el nombre y el apellido, pero el atributo de numero de miembro se comparte para todos.
+
+VARIABLES FINAL:
+Este tipo de atributos o variables de un objeto son usados cuando queremos establecer un valor que nunca va a cambiar, si se intenta cambiar el valor de esta variable 
+el sistema no te lo permite diciendo que es un atributo invisible.
+
+HERENCIA:
+La herencia es cuando se declara una clase con metodos y atributos, luego se crea otra , esta otra le pones etends y el nombre de la antrior
+clase, esto provoca que todos los metodos y atributos de la primera clase pasen a la segunda clase, ecepto metodos y atributos privados.
+
+POLIMORFISMO:
+Se utiliza para dar una jerarquia y patro de comportamiento comun a una serie de objetos que heredan de la misma clase. Puedes tener tres clases, una maestra Y
+las otras dos que van a heredar todo lo que contiene la maestra, pero tal vez uno de los metodos deseas que se comporte diferente a la que tiene la maestra,
+sobrescribes el metodo en cada una de las clases hijas, y a la hora de crearlas, si bien podemos crearlas con el mismo objeto tendran un comportamiento diferente
+estos metodos ya que fueron sobrescritos. El polimorfismo es al capasidad de ser diferentes cosas, una clase PERSONA puede heredar a HIJO, PADRE, HERMANO,
+puedes delcarar un objeto "PERSONA hijo1 = new HIJO(); PERSONA padre1 = new PADRE();" esta capacidad de una clase de poder convertirse en otro tipo de clase y comportarse
+de diferente forma es el polimorfismo.
+*****NO SE DEBE CREAR OBJETOS DE TIPO PERSONA persona1 = new PERSONA, DEBIDO A QUE ESTOS SON GENERALES, ESTO DEBERIA SER UNA CLASE ABSTRACTA PARA EVITAR.
+
+CLASES ABSTRACTAS:
+Una clase abstracta, no pueden instanciar objetos , son utilizdas para definir subclases que se van a crear,
+se utiliza cuando queremos englobar multiples objetos de distintos tipos y queremos hacer uso del polimorfismo.
+
+METODOS ABSTRACTOS:
+Nos sirven para definir los metodos con los que contaran las subclases, estos metodos no pueden ser utilizados, al menos
+que en una subclase las sobrescribamos, esto nos permite tener un molde cuando se estan creando las subclases.
+
+INTERFACES:
+Cuando en una abstracta no nos interesa ni los atributos si no simplemente establecer qcuales son los metodos que se van a implementar
+en los objetos de aquellas clases que implementan las interfazes, es que creamos una interfaz, simplemente cambiamos la palabra class por interface y funciona,
+las clases que van a utilizar la interfaz deben agregar implement "Nombre de la interfaz", ya solo utilizan los metodos estavlecidos en la interfaz.
+
+ENCAPSULAMIENTO:
+Se le llama encapsulamiento cuando tenemos un atributo publico en una clase y decidimos convertilo a privado creando sus correspondientes metodos
+de lectura y escritura, incluso es posible en el metodo de escritura poner validacines para evitar que la informacion que se ingrese sea erronea.
+
+
+TERMINOLOGIA SPRINT------------------------
+
+
+Anteriormente se tenian que realizar la creacion e los objetos de manera manual, utilizando el codigo new, si por ejemplo alguna otra persona en un equipo
+crea una vercion nueva de una clase, todos los objetos que fueron creados es necesario cambiar el nombre de la clase cuando son inicialisados para que 
+el objeto sea creado del mismo tipo. Ahora con la llegada de sprin, crea todo los objetos al arrancar la apluicacion y los mete dentro de su contanier, a la hora de 
+acer uso de neustro objetos simplemente invocamos el uso de inyeccion de dependencias, los objetos que estan guardados dentro del contenedor Spring los podemos llamar
+beans.
+
+INYECTANDO DEPENDENCIAS:

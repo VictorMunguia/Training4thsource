@@ -1,0 +1,10 @@
+package polimorfismoBasic;
+import java.util.Random;
+
+public class mainClass {
+	public static void main(String[] args) {
+		animales[] listaAnimales1 = new animales[5];
+		
+		
+	}
+}

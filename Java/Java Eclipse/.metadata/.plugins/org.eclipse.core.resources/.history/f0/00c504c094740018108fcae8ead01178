@@ -1,0 +1,9 @@
+
+public class enumeracionClass2 {
+	public static void main(String[] args) {
+		for(enumeracionClass gente: enumeracionClass.values()) {
+			System.out.printf("%s\t%s\t%s\n", gente,gente.getDesc(),gente.getAno());
+		}
+	}
+
+}

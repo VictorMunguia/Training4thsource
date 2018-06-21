@@ -1,0 +1,22 @@
+
+public class toString {
+	
+	private int mes;
+	private int dia;
+	private int ano;
+	
+	
+	public toString(int m,int d, int a) {
+		this.mes = m;
+		this.dia = d;
+		this.ano = a;
+		
+		System.out.printf("The constructor for this is %s\n", this);
+	}
+	
+	
+	public String toStringMethod() {
+		return String.format("%d/%d/%d", mes,dia,ano);
+	}
+
+}

@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class cicloWhile {
+	public static void main(String args[]){//Metodo Main que marca el inicio de la aplicacion java.
+		int contador = 0;
+		
+		while(contador < 10) {
+			System.out.println(contador);
+		}
+		
+		
+    }	
+}

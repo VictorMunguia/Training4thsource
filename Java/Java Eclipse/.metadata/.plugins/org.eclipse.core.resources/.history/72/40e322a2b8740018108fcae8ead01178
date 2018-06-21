@@ -1,0 +1,18 @@
+package polimorfismoBasic;
+import java.util.Random;
+
+public class mainClass {
+	public static void main(String[] args) {
+		animales[] listaAnimales1 = new animales[5];
+		int numeroRandom;
+		Random aleatorio = new Random();
+		
+		for(int x = 0; x <4;x++) {
+			numeroRandom = aleatorio.nextInt(4);
+			System.out.println(numeroRandom);
+			
+		}
+		
+		
+	}
+}

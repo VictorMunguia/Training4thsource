@@ -1,0 +1,7 @@
+
+public enum enumeracionClass {
+	victor("Chingon","22"),
+	Rachel("cute","10"),
+	Fernanda("FirstLove","12");
+
+}

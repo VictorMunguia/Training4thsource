@@ -1,0 +1,10 @@
+
+public class herencia {
+	
+	public int Numero;
+	
+	public void CadenaTexto() {
+		System.out.println("Vengo desde herencia");
+	}
+
+}

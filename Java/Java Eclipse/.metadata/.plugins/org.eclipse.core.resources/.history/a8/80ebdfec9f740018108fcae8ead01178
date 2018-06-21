@@ -1,0 +1,18 @@
+
+public class herencia {
+	
+	public int Numero;
+	
+	public void CadenaTexto() {
+		System.out.println("Vengo desde herencia");
+	}
+	
+	private void CadenaTextoPrivada() {
+		System.out.println("Vengo desde herencia y soy privada");
+	}
+	
+	public void sobreEscritura() {
+		System.out.println("Vengo desde herencia");
+	}
+
+}

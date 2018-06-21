@@ -1,0 +1,9 @@
+
+public class polimorfismoMain {
+	public static void main(String[] args) {
+		
+		polimorfismoMaster objeto1 = new polimorfismo2();
+		
+	}
+
+}

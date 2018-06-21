@@ -1,0 +1,9 @@
+
+public class moneyCompound {
+	public static void main(String[] args) {
+		double amount;
+		double principal = 10000;
+		double rate = .01;
+		
+	}
+}

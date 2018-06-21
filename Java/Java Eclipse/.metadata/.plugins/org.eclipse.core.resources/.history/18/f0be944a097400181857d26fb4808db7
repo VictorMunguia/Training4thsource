@@ -1,0 +1,10 @@
+
+public class timeClassInvocation {
+	public static void main(String[] args) {
+		
+		timeClass TC1 = new timeClass();
+		
+		TC1.setTime(20, 30, 6);
+	}
+
+}

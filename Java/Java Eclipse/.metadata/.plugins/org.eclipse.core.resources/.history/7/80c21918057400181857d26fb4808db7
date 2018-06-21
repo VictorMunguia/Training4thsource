@@ -1,0 +1,7 @@
+
+public class metodosEnArreglos {
+	public static void main(String[] args) {
+		int arreglo1[] = {3,4,5,6,7};
+	}
+
+}

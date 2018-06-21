@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class multiplesClases {
+	public static void main(String[] args) {
+		multiplesClasesClase2 c1 = new multiplesClasesClase2();//Inicialisamos la clase para poder crear un objeto de tipo multiplesClasesClase2
+		
+		c1.simpleMessage();//Invocamos un metodo del objeto c1
+		
+		System.out.println("Enter your name plz: ");
+		
+		Scanner NombreInput = new Scanner(System.in);
+		
+		String Nombre = NombreInput;
+		
+		multiplesClasesClase2 c2 = new multiplesClasesClase2();
+		
+		c2.anotherSimpleMessage(Nombre);
+			
+		
+		
+	}
+}

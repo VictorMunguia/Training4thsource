@@ -1,0 +1,13 @@
+
+public class herenciaMain {
+	public static void main(String[] args) {
+		herencia2 objec1 = new herencia2();
+		
+		objec1.CadenaTexto();
+		
+				
+	}
+	
+	
+
+}

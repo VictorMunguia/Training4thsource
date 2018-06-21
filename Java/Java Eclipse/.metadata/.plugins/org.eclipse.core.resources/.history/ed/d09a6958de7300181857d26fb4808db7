@@ -1,0 +1,9 @@
+import java.util.Scanner;
+
+public class constructor1 {
+	public static void main(String args[]){//Metodo Main que marca el inicio de la aplicacion java.
+		constructor2 C1 = new constructor2("Rachel");
+		
+    }	
+
+}
