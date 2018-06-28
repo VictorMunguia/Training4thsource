@@ -1,0 +1,267 @@
+INTRODUCCION:
+Pega proporciona todo lo necesario para la creacion y modificacion de aplicaciones empresariales, utilizando modelos visuales,
+tanto los clientes interesados como el equipo de desarrollo trabajan juntos para capturar los requisitos de las aplicaciones empresariales, 
+PEGA 7 genera automaticamente la aplicacion y su documentacion sin necesidad de codificacion. PEGA 7 tiene la capacidad de cerrar la brecha 
+entre los trabajadores del front y back offices.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+FRONT OFFICES:(IT Stakeholder )
+Los trabajadores del front office son quienes interactuan con los clientes y el publico, son ayudados por los trabajadores del BACK OFFICE, 
+los FRONT OFFICES saben como un proceso debe avanar por sus etapas y finalmente son los encargados de ingresar los requerimientos en PEGA 7.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+BACK OFFICES:
+Los trabajadores del back son quienes dan soporte a los trabjadores del front, estos trabajadores son quienes desarrollan y crean las
+aplicaciones de negocios, es por eso que sabe como crear aplicaciones utilizando los requerimientos que el front mete en PEGA 7.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+THE SITUATIONAL LAYER CAKE:
+La arquitectura que utiliza PEGA 7 consiste en la reutilizacion de lineas de negocios, greograficas y segmentos de otros clientes con los cuales 
+puedes crear multiples aplicaciones empresariales que satisfagan las necesidades de multiples unidades de negocios, canales
+productos y segmentos de clientes. Segun un estudio realizado por forrester, la plataforma unificada de PEGA 7 genera un retorno de inversion 
+del 321% y una reduccion del 75% de los costos de desarrollo de aplicaciones empresariales.
+
+**Admite la reutilizacion de aplicaciones empresariales, permitiendo una adaptacion rapida a mercados variados, 
+lineas de clientes y lineas de producion.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+PEGA 7:
+Nos permite crear aplicaciones que pueden adaptarse rapidamente a condiciones y procesos cambiantes pero manteniendo la accesibilidad en todo 
+momento, estas aplicaciones que son creadas son capases de mantener incluso el cambio de los requisitos, por lo que se vuelven muy versatiles,
+PEGA 7 es 6.4 veces mas rapido de construir, 8 veces mas rapido de modificar, y 40 veces mas rapido de implementar en
+dispositivos mobiles que los lenguajes o programas convencionales de programacion.
+
+**El beneficion de pega segun build for change es que las empresas puedne crear aplicaciones sabiendo que os requisitos para las estas mismas 
+pueden cambiar en un fututo y las aplicaciones en si tambien podrian cambiar.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+INTEGRACION DE APLIACIONES EN PEGA 7:
+La plataforma de pega 7 esta unificada, lo que significa que todas las funcionalidades necesesarias para las aplicaciones de 
+negocios estan configuradas usando un mismo set de componentes que estan ya definidos juntos y guardado en el sistema de registro de la compañia.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+UNIFICACION DE APLICACIONES:
+Ya se mensiono que pega 7 ofrece una plataforma de desarrollo de aplicaciones unificadas para desarrollar apliaciones comerciales. Las herramientas
+normales de desarrollo de apliaciones se centran en la creacion de aplicaciones individuales que despues tienen que se integradas entre si,
+por ejemplo, una empresa tiene que integrar un sitio web, una aplicacion movil y una aplicacion de adminitracion de relaciones con los clientes,
+cada una de estas aplicaciones tienen sus propios requisitos, analisis y politicas comerciales, esto a la vez estan desarrolladas por diferentes
+grupos separados que usan diferentes lenguajes de desarollo de apliaciones, herramientas, metodos y repositorios. Eso provoca que unificar
+las aplicaciones comerciales sea muy dificil. PEGA 7 esta unificada, lo que significa que toda la funcionalidad necesaria para las apliacaciones
+comerciales, se configuran utilizando un conjunto consistente de componentes que se definen y almacenan juntos en el sistema de registro
+de la compania, todas las aplicaciones construidas utiliza un mismo vocabulario comun, modelo choerente para comunicarse, mismos requisitos etc.
+Esto hace que compartir artefactos sea mas facil cuando se crean apliaciones comerciales.
+
+**Con una plataforma unificada, puedes configurar las apliaciones para usar un consistente set de componentes, esto lo que te proporciona es
+una disminucion en el tiempo de desarollo de las apliaciones.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+MEJORAS DE PRODUCTIVIDAD CON APLIACIONES PEGA:
+Pega ayuda a las empresas aumentar la productividad al automatizar los procesos de trabajo, guiar en los procedimientos manuales y proporcionar
+visibilidad en todos los aspectos de las operaciones de una empresa.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+CASE MANAGMENTE:
+Utilizar Case Magnament nos permite automatizar el trabajo complejo de los silos comerciales y de sistemas, mejorando la calidad, la confiabilidad
+la velocidad y el costo de las operaciones. Nos permite tambien automatizar el trabajo de manera inteligente, guiando a los trabajadores con
+informacion esencial y rastrear el estado actual del trabajo a lo largo del ciclo de vida completo para poder tener visibilidad y control 
+de principio a fin.
+Es posible tambien administrar los acuerdo de nivel de servicio o SLA(Acuerdos que establecen el nivel de calidad de un servicio), de esta forma 
+podemos avisar de posibles retrasos, cumplir las promesas a los clientes, socioes y empleados. El monitore del SLA garantiza que el
+trabajo, las alertas y las escalaciones lleguen a las personas adecuadas en el momento adecuado.
+Tambien nos permite cumplir con las normas de regualirazion, incluido el cumplimiento de los procesos comerciales, los procedimientos e incluso la 
+documentacion automatizada y los informes.
+
+**PEGA 7 permite mejorar la productividad utilizando Case Managment el cual automatiza el trabajo completo en silos empresariales y de sistemas.
+La capacidad de controlar el estado del SLA y aletas de posibles retrasos.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+GESTION DEL CICLO DE VIDA:
+Las aplicaciones comerciales son la base de todas las organisaciones, se utilizan para multiples razones como, automatizar el trabajo a realizar
+para lograr resultados empresariales espesificos, como abrir una cuenta nueva, presentar una reclamacion por accidente o pedir
+mercancia en linea, las aplicaciones comerciales tradicionales se basan en transacciones individuales y se crean como aplicaciones independientes
+para diferentes funciones departamentales. Esto provoca que los usuarios de negocios completen el trabajode manera coordinada, cuando se trabaja 
+con apliaciones separadas los usuarios empresariales carecen de la visibilidad que ncesitan para alcanzar los resultados comerciales de manera
+efectiva.
+
+
+CASO Y PROCESO:
+El caso y el proceso son dos caras de la misma moneda, el caso es una transaccion comercial que se desea completar y el proceso
+es la ruta o rutas que sigues para el caso, es decir, como lo haces lo que haces,un caso es trabajo el cual nos dara un resultado a trabes de
+un proceso, el cual se entrega. Un caso es un entrebale significativo proprocionado a un cliente, socio o parte interesada interna.
+Los usuarios empresariales entienden y trabajan con el caso a medida que se mueve de una persona a otra y de un 
+parte organizacional a otra.
+
+**Un caso es una tranaccion comercial que sea completar, un proceso es lo que define que haces y como lo haces.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+INFORMES DE PEGA:
+PEGA proporciona cientos de informes listos para usar y categorizar por uso y tipo de informe, por ejemplo, hay informes para
+supervisar asignaciones, analizar el rendimiento, analizar la calidad y supervisar procesos.
+
+Asignaciones de monitore:
+*salida: Trabajos si resolver en una apliacion.
+*caso de uso: Medir la puntalidad por tarea.
+
+Analizar el rendimiento:
+*salida: Partes del trabajo resueltas en una apliacion, en un nivel individual o acciones en procesos comerciales.
+*caso de uso: Medir el tiempo promedio en horas por tarea y accion de flujo.
+
+Analizar la calidad:
+*salida: Elementos de trabajo resuletos en una aplicacion
+*caso de uso: medir el tiempo promedio transcurrido por estado.
+
+Controlar los procesos:
+*salida: Asignaciones pendientes para los elementos de un trabajo
+*caso de uso: Medir el rendimiento por semana pasada por tipo de trabajo.
+
+Hay dos tipos de informes, los informes d elsitas y los informes resumidos.
+Los informes de lsita muestran la informacion solicitada en un estilo de hojas de calculo, cada fila del informe muestra informacion
+detallada sobre un caso individual, estado, producto u otro tipo de dato,como por ejemplo un usuario puede necesitar
+una lista de pedidos de compra por proveedor. En este informe puede haber metricas comerciales como ID del provedor, nombre del provedor
+total e pago, junto con las metricas de proceso, como ID y estado de trabajo.
+
+Los informes de resumen muestran en cada fila del informe, recuentos, totales, promedios u otros datos resumidos de multiples casos o elementos
+de trabjo, normalmente son usados para mostrar tendencias a largo plazo, con dato resumidos a lo largo de horas, dias, semanas, meses etc,
+pueden incluir grafos.
+
+El buscador de informes permite a los usuarios navegar, buscar, organizar y ejecutar informes existentes, crear 
+informes propios y compartirlos con otros usuarios.
+
+PEGA proprociona cientos de informes listos para usar y los clasifica en cateforias, muchos de estos estan disenados para 
+que los usen los desarrolladores y meustran informacion sobre el diseno de la apliacion, muchos otros estan disenados para ayudar
+a los analistas y generentos de negocios, para ayudar a monitorear y analizar sus procesos comerciales.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+APLIACIONES DE CUSTOMER RELATIONSHIP MANAGMENT:
+Las empresas tienen distintas formas de interactuar con los clientes, pueden usar chat web, correo electronico, telefono o video llamadas,
+PEGA ofrece varias opciones de apliaciones CRM, como por ejemplo, PEGA MARKETING, PEGA SALES, AUTOMATION Y PEGA CUSTOMER SERVICE. Los camales
+de comunicacion del cliente tienen acceso a la misma base de datos de la apliacion.
+
+PEGA MARKETING:
+Esta aplicacion esta diseñada para los profecionales del marketing, los cuales son responsables de gestionar las comunicaciones de los clientes
+de entrada y salida.
+Pega Marketing prove de una combinacion unica de marketing e tiempo real y gestion de operaciones, esta herramienta es poderosa para personalizar
+y administrar campañas completas de marketing.
+
+PEGA SALES AND ONBOARDING:
+Esta destianan a las ventas y serivcios financieros, PEGA proporciona una organizacion de ventas mejorada, se pueden rastrear conocimientos como 
+habilidades, productos y clientes, todo esto para personalizar el compromiso de las ventas. Pega permite, facilitar servicios a las companias 
+enfocadas a los servicios financieros, como revisar informes de credito y aficiliaciones gubernamentales, ademas de cumplir con los requisitos
+reglamentarios.
+
+PEGA CUSTOMER SERVICE:
+Utiliando PEGA CUSTOMER SERVICE puedes brindar un servicio personalizado a los clientes, creando experiencias cosistente con los clientes
+en cualquier lugar, dandoles lo que necesitan cuando lo necesita.
+Las caracteristicas de Customer Service son: Integracion con un sistema de telefonia, autoservicio web, movil, chat,
+navegacion conjunta, integracion de redes sociales y administracion de casos federados, utilizando datos de clientes de por vida. Este servicio
+puede ser ejecutado en la nube o en centros de datos.
+Para darle al cliente una mejor experiencia Customer Service utiliza Straight Through Processing, el cual describe procesos automatizados que
+optimizan la interaccion de los clientes que requieren contacto con representantes de servicios de diferentes divisiones o areas de la empresa,
+todo esto se traduce en, eliminacion de tiempo de espera del cliente, mayor eficiencia en el proceso, menor esfuerzo del usuario.
+
+PEGA INDUSTRY AND CUSTOMER RELATIONSHIP MANAGMENT APPS:
+PEGA ofrece productos espesificos para las industrias, como las fabricas, salud y servicios financieros.Hay muchas optiones disponibles para 
+configurar las apliaciones existentes para fines espesificos de la industria.
+Las aplicaciones de pega, pueden tener la misma arquitectura pero diferentes interfaces, esto debido a que si bien la informacio que se muestra
+en diferentes dispositivos es diferente, estan echas con los mismos componentes UI.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+INTRODUCTION TO PERFOMING WORK IN A PEGA APPLICATION:
+En las aplicaciones de pega, los usuarios finales son quienes crean y procesan casos o gestionan el trabajo de otros usuarios, en pega los usuarios
+finales genericos se conocen como case workers o case administradores.
+
+CASE PARTICIPANTS:
+Son los usuarios comerciales de una apliacion, procesan y cierran casos, normalmente estan organizados por roles, ejemplo:
+en un caso de una disputa de tarjeta de credito, las funciones pueden incluir un representante de servicio al cliente, un ajente de disputas y
+un investigador de fraude.
+
+CASE WORKERS:
+Son los responsables de crear, ver y trabajar en sus propios casos y tareas, en el ejemplo de la disputa de tarjeta de credito, un case work
+podria ser el agente de disputas o un investigador de fraude.
+
+CASE MANAGER:
+Son los responsables de trabajr en los casos y controlar el estado del grupo de trabajo, los objetivos y los plazos, tambien son responsables
+de generar informes, en el caso de disputa de tarjeta un case manager es el que supervisa el trabajo de uno o todos los trabajadores e casos.
+
+HOW MAKE A CASE:
+Los case workers acceden al portal para crear casos y ejecutar tareas para completar el trabajo asociado con sus responsabilidades comerciales,
+PEGA 7 agiliza las operaciones comerciales presentando tareas a medida que esten disponibles.
+
+EL CASE MANAGER se encarga de administrar y ver el estado laboral de los case workers y sus casos asignados, tienen acceso a un portal donde pueden
+ver cada etapa representada en proceso que generalmente tienene que completar una persona o un equipo.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+MODEL-BASED APPLICATION DEVELOPMENT:
+Pega es totalmente diferente ya que esta basado 100% visual y utilia CASE LIFE CYCLE DESING como modelado,
+este modelo describe segun pega, como deberia funcionar una aplicacion comercial, esto les permite a los usuarios comerciales ver e interactuar
+los casos de la misma forma en como lo piensan.
+
+La interfaz visual que tiene pega les permite a los grupos de negocios y a los equipos dedsarrollo trabaja juntos de manera eficiente, capturar
+procesos y ejecutarlos de manera inmediata sin codificacion, absolutamente todo incluidas las reglas y la interfaz de usuario esta construido visualmente.
+
+DESING PEGA APLICATIONS:
+Para el desarollo de aplicaciones pega existen un grupo mas llamado CASE DESIGNERS, estos a su vez se dividen en dos grupos, los cuales trabajan en conjunto
+para desarrollar la aplicacion de negocios.
+
+BUSINESS ARCHITECTS:
+Este primer grupo trabaja con los participantes y stakeholders para poder definir los objetivos de la aplicacion de negocios que se esta requiriendo.
+Planifican el comportamiento de la aplicacion para abordar los objetivos y requisitos de negocios con especificaciones. Estas especificaciones describen
+como la aplicacion administra y automatiza el trabajo.
+
+SYSTEM ARCHITECTS:
+Este segundo grupo proporciona todas las hablidades tecnicas necesarias para completar la apliacion, configuran los activos de la apliacion,
+como los formularios de interfaz de usuario, las decisiones automatizadas y la correspondencia, luego checan la aplicacion con los stakeholders
+de la empresa para su aprobacion.
+
+Estos dos grupos siempre trabajan juntos para que la aplicacion refleje las necesidades comerciales, a menudo los encargados de SYSTEM ARCHITECTS crean prototipos de
+apliaciones para ayudar a refinar las especificaciones capturadas por los BUSINESS ARCHITECTS.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+APPLICATION OBJETIVES FIRST WITH DCO:
+Pega es compatible con un proceso de desarrollo de apliaciones colaborativo llamado CAPTURE OF OBJECTIVES (DCO), los Stakeholder junto con los usan
+DCO para capturar los requistos directamente en la aplicaicon durante las reunione de colaboracion.
+Usar DCO garantiza que todos los participantes van a compartir una compresion comun de los requisitos del negocio, tambien se aseguran de que dichos
+requisitos esten actualizados y disponibles para todos.
+
+PROTOTIP OF APP IN PEGA EXPRESS:
+Pega express tiene la capasidad de que personas sin conocer nada tecnico de pega puedan desarrollar aplicaciones, estas aplicaciones son
+ricas en datos, usuarios, interfaz de usuarios y capacidades moviles, son perfectas para una sesion de colaboracion con los stakeholders y los TI,
+ya que pueden definir los pasos y procesos del tipo de caso primario.
+
+Pega express tiene dos versiones, una de prueba y una completa, la vercion exprees permite a los disenadores: diseno de ciclo de vida, crear casos,
+crear IU y campos, agregar o eliminar usuarios de una aplicacion, definir el tema, la aplicaicon movil y la configuracion de la herramienta.
+
+Con pega express los dise;adores pueden crear aplicaciones y ecutarlas para recrear la experiencia del usuario comercial, por ejemplo, durante la fase de diseno
+el disenador define los campos que se presentan a los usuarios, prueba cada uno de los campos para comporbar que funcionan, PEGA EXPRESS esta disenado para las etapas
+de recopilacion de requisitos iniciales. Despues es necesario utilizar PEGA DESIGNER STUDIO ya que es el entorno avanzado de desarollo de pega para personalizar las
+aplicaciones para satisfacer las encesidades espesificas de los clientes y generar los elementos para la aprobacion final.
+
+En resumen, PEGA EXPRESS sirve para crear y ejectuar prototipos de aplicaciones rapidamente que modelen lo que sera la aplicacion cuando sea termianda.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+TEAM MEMBERS:
+Los equipos de pega 7 incluyen personas que tienen la profundida y amplitud adecuada de habilidades y conocimientos, tienen que tener conocimiento tanto en 
+la tecnologia de pega como en la metodologia de gestion de proyectos elegida por la compania.
+Los roles del equipo de desarollo se pueden dividir en cuatro grandes categorias:
+administracion de programas y proyectos, arquitectos tecnicos y comerciales, recursos comerciales especializados y recursos tecnicos especializados.
+
+PROJECT MANAGER:
+Desarrolla la definicion del proyecto y tiene la responsabilidad diaria de ejecutar el proyecto, responsable de que el proyecto se entregue a tiempo, dentro
+del presupuesto y segun el estandar de calidad acordados, ademas de establecer las relaciones con lso grupos y que cuente con los recusos adecuados.
+
+
+TECHNICAL ENGAGEMENT LEAD:
+Este trabaja junto con el PM para administrar el programa, proyecto y lanzamientos, se encarga de que todos entienda el proyecto, da estatus del mismo.
+
+PROJECT SPONSOR:
+Se encarga de las tareas afectadas por el resultado del proyecto, se involucra desde el comienzo, dfiniendo el proyecto en conjunto con el PM y se asegura de que el proyecto 
+siempre sea revisado. 
+
+STEERING GROUP:
+Grupo de perosnas de nivel gerencial, supervisa el progreso del proyecto y responde a los problemas estrategicos.
+
+USUARIOS UX:
+Es responsable de coneptualizar, disenar y comunicar los componentes UX de la solucion, asi como de garantizar que se creen 
+soulciones eficaces, innovadoras y utilizables teninedo en cuenta las necesidades del usuario y del negocio.
+
+

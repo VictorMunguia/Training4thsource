@@ -1,0 +1,489 @@
+THE MAGIC OF PEGA:
+El objetivo de la magia de pega es cambiar la forma en como se hace software sin codificar y utilizando herramientas visuales con las que invulocurar a todos los empresarios,
+permitiendo asi crear y evolucionar los sitemas que utilizan todos los dias las personas de negocios.
+
+Empoderar el negocio: Las mismas personas de negocios usan herramientas que le spermiten crear y desarrolar sus propias apliucaciones para ejecutar sus negocios con exito.
+
+Los sistemas hacen el tabajo: Los sistemas hacen el trabajo, no las personas, por lo que los sistemas deben ser inteligentes y aprovechar la tecnologia de pega, como por ejemplo toma
+de decisiones, la robotica y la inteligencia artifical para que hagan el trabajo por usted.
+
+Deje que el software escriba el software:El software es quien escribe los programas, con pega no estas vinculado a una topologia o modelo de implementacion. como resultado
+pega permite que sus sistemas sean a prueba de futuro.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PRINCIPAL ROLS:
+Existen dos tipos de roles en la plataforma de desarrollo de pega los cuales son: CASE PARTICIPANTS y CASE DESIGNERS, que a su vez cada uno se divide en dos sub roles,
+todos ellos se unen para construir una aplicacion de negocios satisfactoria.
+
+CASE PARTICIPANTS:
+Son los encargados de solicitar, procesar y cerrar los casos del sistema, normalmente esta divididos en dos sub roles los cuales son: Case Workers y Case Managers:
+Case Workers:
+Son los responsables de crear, ver y trabajar en sus propios casos y tareas, estos no puden ni monitorear el trabajo de los otros case workers o ver estadisticas de trabajo.
+Case Managers:
+Son los responsables de trabajar en los casos y controlar el estado del grupo de trabajo, poniendo objetivos y plazos, tambien son responsables de generar informes de reporte
+del trabajo.
+
+CASE DESIGNERS:
+Son parte del equipo responsable en el desarrollo, diseño y construccion, de aplicaciones de negocios, ellos utilizan dos plataformas para ello, PEGA EXPRESS Y DESIGNER STUDIO,
+Estos a su vez se dividen en dos sub roles
+Business Architects:
+Trabajan con los stakeholders y case participants para definir los requisitos, objetivos de la aplicacion, planificando asi el comportamiento de la aplicacion.
+System Architects:
+Proporcionan las habilidades tecnicas necesarias para completar la aplicacion, ponen interfaz de usuario, las decisiones automatizadas y la correspondencia.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BEST PRACTICES AND GUARDRAILS:
+Best Practices en resumen son metodos o tecnicas bien definidos que al usarlas nos conducen a los resultados deseados, al utilizarlas puedes llegar
+a tu objetivo con problemas o complicaciones minimos.
+
+TIPS FOR ESTABLISHING BEST PRACTICES:
+Esto puede variar, debido a que depende de las necesidades que pueda tener la empresa, y quien toma las deciciones, esta persona puede usar
+varios criterios que ayuden a elegir las mejores practicas.
+Para que las mejores practicas sean seleccionadas correctamente es necesario abordar los objetivos especificos de su organisacion, es importante
+tomar en cuenta la estructura de la empresa, si las practicas dicen que solo una persona toma deciciones y en su equipo de desarrollo se supone
+que cualquiera puede tomar una decicion, pues en ese caso ya estamos rompiendo la estructra de su empresa. Tambien es bueno recordar que utilizar buenas practicas consume recursos,
+como por ejemplo dinero, personal o habilidades, es bueno asegurarse de que su empresa puede proporcionar estos recursos antes de comprometerse.
+
+BEST PRACTICES IN PEGA 7:
+Actualmente con la experiencia que tiene pega, ya a definido las mejores practicas que son clave para entregar proyectos con exito,
+estos son algunos ejemplos:
+
+DCO:
+Aprovechar al maximo la captura de objetivos del DCO, ya que nos permite ingresar directamente los requisitos comerciales para una aplicacion pega,
+eliminando errores de traduccion, ahorra tiempo y esfuerzo al equipo. Permite la participacion conjunta de los stakeholders junto con el equipo de desarrollo
+en torno a un modelo de trabajo visible, permitiendo asi revisar constantemente el progreso del trabajo.
+
+USE STANDARD PEGA CAPABILITIES:
+Pega 7 tiene muchas caracteristicas y capacidades integradas en el producto.
+
+ITERATE AND TEST AS YOU BUILD:
+Use el modelo de entrega mas agil e iterativo que su organizacion pueda adoptar. Por ejemplo, separe las aplicaciones grandes en componentes
+mas peque;os y manejables, en vez de copilar la aplicacion completa y luego probar la , cree y pruebe procesos individuales de forma incremental,
+luego muestre las caracteristicas completadas a los stakeholders para que puedan proporcionar comentarios.
+
+Siempre pruebe cada nueva caracteristica o capacidad para siempre estar seguro de que todo en el proyecto esta funcionando, despues
+es necesario propar el sistema para procesar problemas que puedan afectar el rendimiento. Siempre sin errores. Finalmente
+es necesario hacer que los analistas prueben la aplicacion para hacegurarse que cumple con los requisitos y los objetivos comerciales.
+
+COMMUNICATE PROJECT PROGRESS AT ALL LEVELS:
+La cumincacion regular entre todos los que participan en el desarrollo del proyecto ayuda mucho a que los equipos se enfoquen en los
+problemas correctos de manera oportuna.
+
+Siempre es bueno realizar reuniones diarias para establecer prioridades para el dia, asegurar alineacion y eliminar cualquier bloqueador.
+
+Siempre actualizar semanalmente el proyecto para rastrear prblemas y actualizar el informe de estado, marcar las condiciones que requieren
+atencion inmediata para mantener los proyectos en movimiento a tiempo.
+
+Reuniones bisemanales o mensuales para revisar todo el proyecto y determinar si la aplicacion cumple con los objetivos de dise;o originales.
+
+ALL MEMBERS ARE CERTIFIED:
+El exito del projecto depende mucho del equipo completo y que sea capaz. pega recomienda que todos los integrantes del equipo tengan
+certificacion en los roles que realizan.
+
+FOLLOW PEGA GUARDRAILS:
+Las barandillas de pega ayudan a garantizar que utilice las mejores practicas para configurar las aplicaciones de pega.
+
+COLLABORATE WITH EVERYONE INVESTED IN THE SUCCESS OF THE PROJECT:
+Siempre colaborar con todos los stakeholders que quieren que el proyecto tenga exito tiene beneficios, reunir a todo el equipo de desarrollo,
+dise;adores etc... es necesario para que todos puedan compartir sus puntos de vista unicos.
+
+**El echo de no seguir adelante con las buenas practicas puede probocar: mayor tiempo deicado en la creacion el proyecto asi como tambien correr
+riesgo en la implementacion de caracteristicas que no funcionan correctamente.
+
+GUARDRAILS FOR APPLICACION DESIGN:
+Cuando trabajamos con la plataforma de pega veremos mensajes importantes, estos mensajes son las GUARDRAILS, estas ayudan a que el sistema sea creado 
+con las mejores practicas conocidas para el desarrollo de la pataforma pega, el no usar las mejores practicas significa que nuestro proyecto
+corre el riesgo de fracasar, desiandose del curso , no funcionando como deberia o tambien que sea muy dificil de mantener en un futuro.
+Las GUARDRAILS son la mejor forma de sacar un proyecto en condiciones adelante.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CASE LIFE CYCLE DESIGN:
+Las aplicaciones de negocios son la base de todas las organizaciones, automatizan el trabajo a realizar, como abrir cuentas , presentar un reclamo o
+pedir mercancia en linea. Las aplicaciones actuales son creadas de manera individual, creando asi omplicaciones y dificultades para los trabajadores,
+ya que las aplicaciones se trabajan por separado.
+
+A BUSINESS VIEW OF WORK:
+Los trabajadores de negocios necesitan trabjar de manera cordinada, las aplicaciones de negocios deberian funcionar de la misma manera en la que ellos
+piensan y describen su trabajo. Los trabajadores estan acostumbrados a trabajar como un ciclo de vida, llega un caso
+se trata , pasa al siguiente departamento, se vuelve a tratar etc...
+
+Los casos capturan el ciclo de vida de un tipo espesifico de transaccion, desde la creacion hasta la resolucion del mismo, los casos definen,
+estructura de datos, procesos, tareas e interfaces de usuarios requeridas para procesar la transaccion. En pocas palabras un caso entrega un resultado comercial
+significativo a un cliente, socio o parte interesada interna.
+
+Los casos tienen un ciclo de vida el cual tienes que dise;ar, en pocas palabras es como deberia funcionar una aplicacion comercial. El ciclo de vida de los casos les permite a los
+usuarios comerciales ver e interactuar con un caso de la misma forma en como lo pensarian.
+
+Los casos se organizan en hitos de alto nivel, son conocidos como etapas, las etapas son el primer nivel de organizacion de las direntes tareas o procesos que se tienen que llevar
+a cabo para completar el trabajo que esta asociado con el caso. 
+
+STAGES:
+La primera parte para organizar un ciclo de vida son las etapas, es el primer nivel de trabajo, estos contiene los flujos de trabajo o procesos,
+que los usaurios tienen que seguir. Al capturar todos los requisitos en etapas tienes una idea de lo que primero se tiene que hacer y lo que en consecuencia paasara
+por realizar eso, esto es bueno ya que los usuarios saben que tienen que hacer antes de mover un caso a la siguiente fase en el ciclo de vida.
+
+Las etapas que conducen al resultado esperado se llaman etapas primarias, mientras que la consecuencia de seguir estas etapas primarias es conocido
+como camino feliz.
+
+ALTERNATIV STAGES:
+Algunas veces el curso del proeycto no siempre fluye como deberia, esto provoca que una etapa  alternativa se tenga que usar, estas etapas son acciones 
+que describen como solucionar la situacion, son pasos que no son parte del curso normal del evento, pero deben estar disponibles bajo ciertas circunstancias.
+
+Por ejemplo cuando se levanta un pedido algunas veces se puede cancelar el mismo pedido antes de que se concluya, esto significa que otro conjunto
+de tareas diferentes pueden pasar cuando el pedido se cancelar.
+
+GUILDELINES FOR DEFINING STAGES:
+Siempre es necesario usar nombres que sean significativos y relevantes para los usuarios, no usar mas de dos palabras y siempre usar un sustantivo o frase
+nominal.
+
+Siepre limitar el numero de etapas a siete y la cantidad de etapas alternativas cinco, si se ve en la cituacion de tener mas de ese numero,
+considere en combinar las etapas para que sean menos.
+
+STAGE TRANSITIONS:
+La transicion de etapas le permiten refinar aun mas el orden de las etapas en tiempo de ejecucion.
+
+En la transicion primaria es simple, cuando se completa una automaticamente se hace la transicion a la siguiente etapa primaria, sin embargo, se pueden crear
+transiciones controladas las cuales son transiciones que te llevan a otra etapa en caso de que ocurra algun accion espesifica,
+como por ejemplo en deiciones si o no. Saltar etapas en caso de que alguna ya no se cumpla por deciciones etc.
+
+PROCESS:
+En el ciclo de vida del caso, todos los procesos se organizan en etapas, estas etapas definen uno o mas caminos que debe seguir el caso, es posible
+agregar un proceso en una etapa para saver que tareas se tienen que cumplir pra esta etapa.
+
+PROCESS STEPS:
+Los procesos tienen tareas o pasos, un paso puede ser una accion que realiza un usuario o que realiza el sistema, al organizar asi los procesos
+puedes controlar quien como y cuando realizan las etapas del ciclo de vida.
+
+GUIDELINES FOR DEFINING PROCESSES:
+Al nombrar los presos y pasos, siempre usa verbo + sustantivo.
+
+Siempre considere limitar el numero de pasos en cada proceso a cinco.
+
+OPTIONAL PROCESS:
+Algunas veces el usuario necesita realizar procesos que esta fuera de la ruta principal de la linea, por lo que se recurren
+a los procesos opcionales, estos te permiten separarte e la linea principal e irte a una secundaria, la cual al final podria volver a unirse a la linea
+primaria, o continuar en la secundaria.
+
+OPTIONAL ACCION USER:
+Estas son especiales, algunas veces deseamos darle la optcion al usuario de realizar una tarea, esta se separa de la linea principal, ejecuta la tarea
+despues, es tipico que regrese a la linea de proceso original. A diferencia de la otra opcion que normalmente no regresa.
+
+GOALS AND DEADLINES:
+Un aspecto muy importante cuando estamos desarrollando una aplicacion es que tan rapido el trabajo es completado, Service Level Agreements (SLAs)
+nos ayuda a terminar un desarrollo del trabajo en los intervalos establecidos, utilizando tres hitos: objetivo, fecha limite y past deadline,
+estos tres hitos definen los tiempos de resolucion esperados para un paso o caso.
+
+Objetivo:
+El objetivo define cuanto tiempo debe durar la tarea y generalmente se mide desde el momento en que se inicio la tarea.
+
+Fecha limite:
+Se define como la mayor cantidad de tiempo que la tarea puede tomar antes de que se considere tardia, normalmente tambien se mide desde el dia de inicio.
+
+Passed Deadline:
+Es un hito adicional en caso de que la tarea pasa la fecha limite, un ejemplo con una solicitud, podemos esperar que un gerente pueda revisar una solicitud
+dentro de las 24 horas de haberla recibido, pero que les permite hasta 36 horas antes de que se considere tardia, y un dia adicional antes de que se considere
+Passed Deadline.
+
+En cada hito podemos ajustar la urgencia de la tarea, en un valor de diez a cien, cuanto mayor sea el valor mayor sera la urgencia de la tarea,
+conforme pasa el tiempo y la tarea no se a atendido, aumentados el valor de urgencia de la tarea, 10 o mas puntos, dependiendo de lo que se establesca.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PLANNING END-USER FORMS:
+Algunas veces, las aplicaciones empresariales necesitan interaccion humana, cuando un caso pasa por un proceso, los usuarios suelen realizar algunas tareas
+por el camino, ingresan o revisan informacion den formularios.
+
+No todos los usuarios realizan la misma tarea, por ello los formularios son dise;ados para realizar tareas muy especificas, el sistema guarda la informacion
+que es ingresada en los formularios como datos, estos datos son usados para procesar los casos.
+
+FORMS DESIGNED FOR SPECIFIC TASKS:
+Supongamos que tienes un sistema de prestamo de dinero, primero los usuarios que solicitan el prestamo llenan un formulario donde ponen sus datos perosnales
+para poder solicitar el prestamo, mandan este formulario para su revision como un request, los usuarios que verifican la informacion comprueban que los datos esten 
+bien, por ello, tienen otro formulario diferente, que no pueden editar, sin embargo tienen campos extras donde tienen que poner informacion de seguridad, los 
+formularios son muy diferentes entre ellos, debido a que estan dise;ados para tareas muy especificas.
+
+IDENTIFY THE TASKS A USER WILL PERFORM:
+Como analista de negocios o arquitecto, es necesario determinar que informacion necesitan ver o recopilar los usuarios para realizar sus tareas espesificas
+despues de tener esta informacion debes crear un formulario que les permita lelvar a cabo estas tareas, puedes hacerte las siguientes preguntas para ayudarte a crear
+los formularios: Que campos necesitan ver los usuarios? Como los usuarios finales ingresaran valores en esos campos? Pueden modifificar o solo leer valores?
+
+MAKING FORMS IN YOUR APP:
+Ahora puede crear formularios utilizando la herramienta de View Configuration tool, esta herramienta tiene una matriz de filas, una para cada campo de la interfaz 
+de usuario.
+
+CAMPO 1:Esta sera la informacion que se le mostrara al usuario que ingrese, ID, COMPANY, TEL, ETC...., en caso de que no tengamos un tipo de dato espesifico
+que queremos que el usuario ingrese, simplemente le ponemos un nombre para que el usuario identifique que informacion poner.
+
+CAMPO 2:Formato en el que tiene que estar la informacion, si el tipo de dato a ingresar es un texto comun, una lista, una fecha, un numero etc....
+
+CAMPO 3:Pueden los usuarios editar el valor, ver el valor, que sea un valor opcional, obligatorio.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+REQUIREMENTS MANAGEMENT:
+Se trata de un proceso de recopilacion, analizado, refinado y priorizado de los requisitos de un producto, despues se planifica su entrega, esto ayuda
+a garantizar que la aplicacion que se esta construyendo valide y satisface las necesidades de los clientes y stakeholders, esto es un proceso que continua 
+por todo el proyecto, cuando se esta construyendo una pliacion esta siguiendo un conjunto de requisitos que estan definiendo lo que debera hacer la aplicacion,
+la probabilidad de exito depende mucho de lo bien comprendido, rastreado de los requisitos. El tener los requisitos bien definidos le proporciona al equipo
+visibilidad en cada aspecto del proyecto.
+
+La tarea de recabar requisitos es un tanto desalentadora, el problema no son tatno el recabar los requisitos. Como cualquier proyecto es necesario muchos artefactos
+para poder sacar adelante un proyecto, como documento de alcanze el cual es definido por el documento de requisitos.
+
+El DCO de pega es un conjunto de caracteristicas que permiten a los miembros del equipo de proyectos capturar, organizar y gestionar los requisitos directamente y aoscielos
+con las partes espesificas de la aplicacion que los estan implementado,.
+
+BUSINESS OBJECTIVES:
+Son declaraciones que describen el valor de negocios que debe proporcionar la apliacion, o las necesidades de negocios que la apliacion debe abordar
+pueden ser aplicados a toda la organizacion como, lineas de negocios, departamentos, empleados, clientes e incluso esfuerzos de marketing, los business architects son quienes
+revisan la informacion para estar seguros que no haya ineficiencias.
+
+Un ejemplo es: una empresa declara que el proceso actual para gestonar una solicitud de compra lleva demaciado tiempo, pues el objetivo empresarial debe ser :
+El tiempo en procesamiento para las solicitudes de compra no debe ser superior a 3 dias habiles.
+
+Estos objetivos de negocios tambien ayuda a establecer el alcance del proyecto.
+
+APPLICATION REQUIREMENTS:
+Pega define a un requisito como un acurdo entre las partes interesadas sobre lo que hara una aplicacion comercial. un requisito siempre utiliza un lenguaje commercial para describir 
+lo que la aplicacion debe hacer para satisfacer las necesidades de su negocio, pueden ir desde declaraciones abstractas de alto nivel de servicios hasta especificaciones
+funcionales mas detalladas. Puedes pensar en los requisitos como un invntario de eventos, condiciones o funciones que se tienen que implementar y seguirse en un proyecto
+de desarrolo.
+
+TIPOS DE REQUSITOS:
+BUSINESS RULE: requisitos generalmente asociados con un caso de uso especifico o paso en un proceso.
+CHANGE CONTROL: identifica como administrar los cmabios en la aplicacion.
+ENTERPRISE STANDARD: requisitos que se aplican en toda la empresa, o son estandar de la industria que todas las aplicaciones deben cumplir.
+FUNCTIONAL: Identifica una funcion que se llevara a cabo en la aplicacion, calculos, manipulacion de datos etc...
+No-Functional: Identifica las metricas de rendimiento, como tiempos de interaccion de una pantalla a otra .
+
+Saber como se ve un buen requisito es importante, si una persona ve un buen requisito, no significa que otra piense lo mismo, deben de usar terminos de negocios.
+Un buen requisito debe tener:
+-Terminos de negocios
+-El requisito debe ser atomico
+-Debe ser claro y conocidos
+-El requisito es veriflicable
+-Debe ser concistente, es decir, no deben ocacionar conflicto con los demas requisitos
+
+APPLICATION SPECIFICATIONS:
+Cuando ya sabes que es lo que quieres hacer ahora es necesario prestar atencion a como lo va a hacer. Las espesificaciones definen como implementar su aplicacion,
+estas utilizan el lenguaje de negocios para describir los pasos necesarios para cumplir un requisito.
+
+Un ejemplo: necesitas un sistema que le permita a los pacientes incribirse en linea, sabemos lo que tenemos que hacer pero no como, primero es necesario
+determinar que para inscribirse en linea necesita capturar la informacion personal de un usuario. Los requisitos casi siempre estan relacionados con los pasos
+que tenemos que realizar.
+
+RELATIONSHIP BETWEEN PEGA DESING ARTIFACTS:
+La rastreabilidad es la capacidad de vincular las espesificaciones a los objetivos y requisitos del negocio, y enviar los artefactos de implementaion y casos de prueba,
+cuando comienzas a trabajar en una nueva vercion de la aplicacion, es necesario ver que ya esta echo y mas importante, por que ya esta echo. Para lograr esto tiene que
+examinar como las espesificaciones, requisitos, los objetivos comerciales y los artefactos de implementacion se relacionan entre si.
+
+En PEGA, las espesificacione son el centro de la rastreabilidad, con las espesificaciones en el centro, nos permite que cualquier persona mire hacia atras 
+para poder ve rlos requisitos y objetivos comerciales.
+
+**Principal diferencia entre un requisito y una especificaicon es que, el requisito describe que es lo que necesita el negocio y la especificacion describe como la aplicacion
+va a satisfacer las necesidades del negocio.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ALTERNATE STAGES:
+Normalmente los casos progresan en un orden de una etapa primaria a la siguiente, pero en algunas situaciones el trabajo no siempre funciona de acuerdo con el plan
+, cuando esto pase use una etapa alternativa para describir las acciones necesarias para resolver la situacion, estas etapas alternativas son usadas para organizar 
+pasos de proceso que no son parte del "curso normal de eventos" pero deben estar disponibles en caso de alguna circunstancia.
+
+Un ejemplo muy claro es cuando creamos un ciclo de vida para una solicitud de pedidos en linea, tenemos que ser concientes de que los pedidos se pueden cancelar,
+antes de ser enviados, si se cancela una orden, lo primero que se tendria que hacer es procesar la solicitud de cancelacion,  finalmente, se debe notificar al cliente
+que el pedido se cancelo.
+
+GUILDELINES FOR DEFINING AND NAMING ALTERNATE STAGES:
+Cuando definimos etapas alterntivas tenemos que tomar en cuentan algunas pautas, como por ejemplo, usar nombres que sean mas significativos, sustantivos o frases
+no mas de dos frases, y considerar limitar el numero de etapas alternativas en cualquier tipo de caso dado a tres o cinco etapas.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+USER ACTIONS:
+Las user actions complementan las tareas que los usuarios pueden reealizar mientras trabajan en un caso, estas acciones permiten a los usuarios abandonar la ruta principal
+para completar otro proceso, estas acciones no es automatica, el usuario tiene que decidir realizarlas.
+
+Las acciones de usuario siempre estan disponibles para una etapa o un caso completo.
+
+OPTIONAL PROCESS:
+Utilize los procesos opcionales cuando necesite realizar varios pasos para actualizar informacion, estos procesos permiten al usuario ejecutar un nuevo proceso desde dentro del caso
+, la unica diferencia que hay entre un proceos optional y los demas procesos es que este el usuario decide cuando se ejectua el proceso optional.
+
+Este proceso opcional le permite al usuario realizar multiples tareas fuera del proceso, y al final el usuario puede volver a la ruta o no. por ejemplo una cancelacion
+del producto, o request, puede llevarte a otro proceso, eso es opcional.
+
+LOCAL ACTIONS:
+Utiliza estas acciones cuando la informacion del caso se puede actualizar en una sola pantalla, estas acciones permiten al usuario realizar un cambio sin interrumpir el procesamiento 
+del caso. La accion local se diferencia de la proceso opcional por que despues de ejecutar las tareas que tiene en cola regresa a la linea del tiempo principal.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+COMMON REASONS FOR COMMUNICATING WITH USERS:
+Las empresas dependen mucho de la comunicacion oportunda para establecer comprencion de las transacciones o asignaciones, como ejemplo tenemos un requisito de reclamo
+automatico, en el que se tiene que notificar a los clientes cuando sus reclamos se archivan satisfactoria, tambien tenemos que mantener actualizado a los trabjadore
+sociales. Cuando se tiene un nuevo reclamos por procesar se tiene que notificar a los trabjadores sociales, por ello se tienen tres preguntas simples para tener una 
+comunicacion efectiva: Quien es el usuario que recibe la comunicacion? Como se enviara la comunicacion ? Cuando se debe enviar la comunicacion?
+
+IDENTIFYING USERS TO COMMUNICATE WITH:
+Necesitamos saber con quien tenemos que comunicarnos, el problema es que podmeos tener una direccion espesifica, pero que ocurre cuando la direccion no es valida o 
+cambia consecutivamente, PEGA tiene la posibilidad de poner roles a la correspondencia.
+
+OWNER: La persona que creo el caso
+CUSTOMER: La persona cuyo nombre se tramita el caso, esta persona no puede procesar el caso, pero puede querer o necesitar notificar cualquier cambio
+INTERESTED: Una persona que rastrea el progreso de un caso pero no procesa el caso.
+
+Pega tiene una funcion llamada party, la cual nos permite mandar la correspondencia a diferentes usaurios, no solo limitarnos con uno solo.
+
+IDENTIFYING HOW TO COMMUNICATE WITH USERS:
+Es necesario saber cual canal de comunicacion es el mas efectivo para comunicarte con un usuario, podemos utilizar, correo electronico, mensaje de texto
+fax, correo postal. Todos tienen una funcionalidad basica que comparten una misma plantilla.
+
+IDENTIFYING WHEN TO COMMUNICATE WITH USERS:
+Pega se encarga de cuando entregar la correspondencia, solo es necesario pensar en la configuracon de a quien enviar y su contenido.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FLOW RULES:
+Cuando creamos un flujo, modificandolo se nos crea tambien un flow rule, un flow role proprociona un metodo visual para modelar un proceso en su aplicacion
+utilizando formas y conectores para definir una secuencia de eventos. Cada paso del proceso en el clico de vida de la caja esta representado por una forma de flujo.
+Una forma de flujo representa una tarea que se realiza como parte de un proceso comercial. Estas se diferencian por color, simnolo y nombre.
+
+Puedes utilizar el Process Modeler para poder agregar funciones avanzadas a los procesos, como las decisiones basadas en datos o el procesamiento paralelo o iterativo.
+Cada forma de flujo representa una accion de procesamiento especifica que puede configurar para realizar una accion especifica.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Business Reports
+Se trata de un informe el cual nos proprociona informacion relevante en lugar de monton de datos sin clasificar, nos puede mostrar que esta sucediendo ahora, que
+esta sucediendo durante un periodo de tiempo y que sucedera.
+
+Existen dos tipos de metricas asociadas con los datos que puede mostrar un informe, metricas de negocios y metricas de proceso, las primeras representan los datos 
+que define para una aplicacion, por ejemplo la cantidad de pedidos de un determinado articulo o cuantos pedidos de un determinado tipo se cancelan.
+
+Las segundas metricas son definidas y rastreadas por pega , es decir, incluyen cuanto timepo se tarda en completar una tarea, con que frecuencia se sigue una ruta 
+en un flujo o con que frecuencia se infrigen los acuerdos de nivel de servicio (SLA).
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+THE ROLE OF THE SYSTEM ARCHITECT:
+Desarrolar una apliacion empresarial es un esfuerzo de equipo, se requiere que cada integrante complete sus tareas y conoscoza el proyecto. Se necesita la colaboracion 
+de tres partes interesadas, Business stakeholders, Business Architects y System Architects, para resolver todos los probelmas.
+
+Los Business stakeholders defninen el problema, los Business architects planifican para abordar el problema y finalmente los System architects configuran la aplicacion
+para resolver el problema. Los stakeholders junto con los Business architects hablan de cual es el problema, luego los Business architects junto con los System architects 
+planifican como resolverlo y finalmente los System ARCHITECT ponen manos a la obra para resolverlo.
+
+TYPES OF SYSTEM ARCHITECTS:
+
+LIDER:
+Son los mas expermientados y son quienes dirigen el esfuerzo tenico en un proyecto, dise;a una arquitectura para la aplicacion junto con el Business architect, cumple con
+los objetivos de calidad entre ellos, el rendimiento de la aplicacion.
+
+SENIOR:
+Supervisan el desarrollo de las aplicaciones, se concentra en un proceso en particular o formulario y da supervicion en el desarollo del mismo, agrega detalles tecnicos a 
+la espesificaciones, traduciendo los requisitos de la aplicacion en dise;os de caracteristicas que cumplan con la barandilla, finalmente encuentra oportunidades para reutiliar
+activos existentes dentro del dise;o de la apliacion.
+
+JUNIOR:
+Son quienes realizan una gran parte del desarollo del trabajo, configurando y probando los elementos individuales de la aplicacion.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+RULES AND RULES TYPES:
+En una apliacion pega, tienes que poner instrucciones, instrucciones las cuales van a crear, procesar y resolver un caso, estas instrucciones son llamadas reglas,
+estas describen el comportamiento de casos individuales. PEGA proporciona ayuda con el desarrollo de reglas, Case Desginer crea automaticamente reglas para describir
+casos, procesos y formularios e UI. Gran parte del trabajo se puede completar con la ayuda de estos asistentes. Pega proporciona muchos tipos de reglas, con cada tipo 
+adaptado a un tipo espesifico de comportamiento de caso, ejemplo, Pega proporciona un tipo de regla para describir un flujo de proceso y otro tipo de regla para describir
+una notifiacion automatica por correo electronico.
+
+Esta modularidad proprociona tres beneficios:
+
+VERSIONES: Los system Architects crean una nueva version de una regla cada vez que el comportamiento del caso cambia, Pega proporciona un historial de cambios en una regla,
+lo que les permite a los System architect checar los cambios que se han echo y desaser aquellos cambios si es necesario. Gracias a que cada regla describe un comportamiento
+de un caso espesifico no afecta el eliminar o agregar cambios al resto de comportamientos del caso.
+
+DELEGACION: Los System architect tienen la capacida de delegar reglas a los usuarios, un ejemplo, es que si por el momento se detona una condicion cuando un resivo lleva mayor 
+de 25 dolares, pues un system architect puede delegar esta regla para que el usuario pueda aumentar el total en el que se disparara el evento.
+
+REUTILIZACION: Los system architect necesitan utilizar una regla de nuevo en una aplicacion donde ya existe un comportamiento similiar en otro caso puede hacerlo, de lo contrario
+tendran que volver a reacer el comportamiento. 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CREATING CASES AND CHILD CASES:
+Cuado representas un proceso de negocios en pega, tu creas una plantilla para el proceso de trabajo, esta plantilla es llamada Case Type, son usadas para crear instancias individuales
+de trabajo llamadas cases.
+
+Algunos procesos de negocios son demaciados complicados para modelar con un solo tipo de cases.
+
+CASE TYPE AND CASE:
+Un Case type es un modelo abstracto de una transaccion de negocios, mientras que un CASE es una instancai especifica de una transaccion. los CASE TYPEs como una plantilla
+para crear y procesar CASES. Cuando una nueva transaccion es iniciada, un nuevo CASE es creado basado en la definicion del TYPE CASE.
+Un ejemplo muy claro es cuando, tenemos uns sitema de gestion de reclamos dental, el CASE TYPE tiene todos los modelos de datos  para almacenar informacion , informacion del
+procedimiento dental, proceso para revisar y aprobar o rechazar reclamo, tambien proporciona formularios de usuario para adjuntar documentos medicos. Sin embargo, cada vez que un paciente 
+presenta un reclamo dental, se crea nuevo CASE, puede haber un CASE para John Smith, otro par Linda Wise etc...
+
+Cada CASE pued contener datos diferentes y avanzar a traves del clcio de vida.
+
+CASE TYPE RELATIONSHIP:
+Una transaccion de negocios puede ser complicada e involucrar multiples cases, un ejemplo es cuando tienes un sistema para recursos humanos, un empleado puede solicitar
+una entrevista, el departamento de recurso humanos habre un case candidato, para cada solicitante de empleo, el solicitante es entrevistado, si todo sale exitodo el solicitante
+resive una oferta de trabajo, si el solicitante acepta la oferta de trabajo, entonces recursos humanos toma al solicitante como contratado, entonces se crea un nuevo case incorporacion
+para incorporar al nuevo empleado al empleo, el caso candidato es indepentiende del caso incorporacion.
+
+En una aplicacion PEGA, puedes modelar relaciones padre-hijo con una jerarquia de CASE TYPE que contiene un CASE TYPE de nivel superior y un CASE TYPE child:
+
+TOP-LEVEL(Alto): Un CASE TYPE de este tipo no tiene ningun tipo de caso principal, pero puede cubrir, o convertirse en padre de, otros CASE TYPE.
+
+CHILD(Nino): Un CASE TYPE de este tipo esta cubierto por un CASE TYPE principal, cuando creas un CASE TYPE de este tipo pega mantiene una relacion 
+entre los CASE padres e hijos. Este tipo de CASE representan los cases que se tienen que completar antes de resolver el problema principal.
+
+Un ejemplo de esto es el siguiente: sistema que se encarga de gestionar request de accidentes de automoviles, pero cuando se abre un case de un accidente tienes primero que solucionar 
+dos Case types, leciones de auto y leciones personales, en cualquiera de los casos primero tienes que solcionar el CASE TYPE hijo para resolver el principal.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DATA IN PEGA APPLICATIONS:
+Todas las aplicaciones recopilan datos para usar en el procesamiento de casos, la forma en como esta informacion sera procesada y usada para resolver mejor los cases
+se basa en la informacion que se optiene. Por ejemplo, un case compra requiere informacion del cliente y linea de pedidos. un CASE TYPES DATA MODEL define la estructura
+de datos para el caso.
+
+Un modelo de datos se construye a partir de elementos de valor unico o colecciones de elementos de valor unico relacionados. Una coleccion de elementos relacionados 
+se llama DATA OBJECT. Un ejemplo: una solicitud de de compra tiene, fecha, cliente, lista de articulos de linea y total. El identificador unico son, la fecha, y el total,
+son elementos de datos de valor unico, sin embargo elementos como el cliente y la lista de compras constan de mas de una propiedad de valor unico. por ello cliente y lista de
+compras son DATA OBJECT. Existen una relacion uno a uno entre la solicitud de compra y el cliente, y una relacion de uno a varios con la lineas de pedido.
+
+PROPERTIES:
+En Pega 7 los Data Elements son llamados propiedades o campos. Las propiedades pueden ser de valor unico o tambien una coleccion de valores relacionados.
+
+VALUE MODE PROPERTIES:
+Usarlos para las propiedades sin correlacion con otras propiedades, por ejemplo, el identificador y la fecha en la solicitud de compra.
+SINGLE VALUE: Tambien conocida como propiedad de valor unico, almacena texto, numeros, fechas, valores booleanos y cantidades.
+VALUE LIST: Actua como un contenedor para una lista ordenada de valores de texto, como por ejemplo la lista de codigos de descuento.
+VALUE GROUP: Actuan como un contenedor para una lista desordenada de valores de texto.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DATA TRANSFORMS:
+Cuando se esta creando y llevando a cabo un CASE, es necesario usar datos, estos datos, son recopilados, procesados y presentados al usuario. Sin embargo algunas veces
+es necesario copiar datos de un lugar a otro, otros casos, sus datos no estan en la forma que los necesitas, por lo que debe encontrar la forma de manipularlos
+en una forma aceptable. Un ejemplo es una aplicacion de compras, los articulos se agregan a un carro y comeinza el proceso de pago. El cliente proporciona direccion
+de envio, informacion de la tarjeta y direccion de facturacion. La direccion de envio puede ser la direccion del cliente, por lo que la direccion de envio y
+la direccion del cliente sean la misma, por lo que es mas eficiente si solo reutilizamos la direccion de envio que se proprociono.
+
+Una forma para copiar y manipular informacion es usando el DATA TRANSFORM. Puedes usar esta herramienta de varias maneras, puedes por ejemplo invocar una transformacion
+de datos desde una regla de accion de flujo, o desde un conector.
+
+
+HOW TO SET VALUES WITH DATA TRANSFORMS:
+Utilice una transofmracion de datos para definir como tomar el soruce data values, ya que tienen un tipo de dato y clase definidos, esta herramienta
+toma estos datos, los convierte a otros valores y clases.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+INTRODUCTION TO SETTING PROPERTY VALUES DECLARATIVELY
+Cuando un usuario ingresa un valor en un formulario, los valores relacionados tambien pueden cambiar, comprando un articulo como una computador portatil en linea
+ingresa la cantidad que desea comprar.El sistema muestra el monto de tu pedido de manera automatica. El Declarative processing automaticamente configura su aplicacion
+para que el sistema pueda actualizar automaticamente los valores e las propiedades, como el monto de una orden.
+
+DECLARATIVE PROCESSING:
+Algunas veces un usuario puede introducir un valor, el cual puede provocar que los valores del sistema cambien, este cambio el sistema tiene que hacerlo
+de manera automatica. El procesamiento delcarativo mantiene una relacion entre propiedades. Cuando los valores de entrada cambian, los valores de propiedades
+relacionados cambian entre si tambien. Su principal beneficio es que las actualizaciones ocurren solo cuando se activa en la aplicacion.
+Tienes que usar reglas declarativas para definir el evento desencadenante. El sistema constantemente monitoriea la aplicacion para ver cuando ocurre
+el evento.
+
+PROCEDURAL PROCESSING:
+Una sola expresion delcarativa puede monitorear eventos desencadenantes, sin importar donde se use esa expresion en la aplicacion. Las reglas
+de procesamiento delcarativo no dependen de otras reglas, como transformaciones de datos , actividades o reglas de interfaz de usuario (UI), para realizar actualizaciones.
+
+El procedural processgin depende de reglas, tales como transformacion de datos, actividades o reglas de interfaz de usuario (UI), para avisar a la aplicacion cuando 
+buscar un evento desencadenante.
+
