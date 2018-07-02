@@ -1,9 +1,0 @@
-package polimorfismoBasic;
-
-public class perro extends animales {
-	
-	public void ruido() {
-		System.out.println("GUFF GUFFF!!!");
-	}
-
-}

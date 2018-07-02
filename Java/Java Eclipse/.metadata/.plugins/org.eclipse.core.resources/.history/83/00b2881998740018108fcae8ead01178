@@ -1,7 +1,0 @@
-
-public class staticAtrubutos2 {
-	public static void main(String[] args) {
-		staticAtrubutos persona1 = new staticAtrubutos("Megan","Fox");
-	}
-
-}

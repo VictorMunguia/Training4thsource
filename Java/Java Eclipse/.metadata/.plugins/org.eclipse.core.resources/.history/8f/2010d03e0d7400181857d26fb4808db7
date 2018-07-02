@@ -1,9 +1,0 @@
-
-public class multiplesConstructores {
-	private int hora;
-	private int minuto;
-	private int segundo;
-	
-	
-
-}

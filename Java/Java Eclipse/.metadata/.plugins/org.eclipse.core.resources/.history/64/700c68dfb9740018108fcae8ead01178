@@ -1,9 +1,0 @@
-package polimorfismoBasic;
-
-public class animales {
-	
-	public void ruido() {
-		System.out.println("Los Animales no hacen ruido");
-	}
-
-}

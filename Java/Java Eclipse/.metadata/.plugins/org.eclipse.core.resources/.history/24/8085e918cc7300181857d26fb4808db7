@@ -1,8 +1,0 @@
-
-public class variables {
-	public static void main(String args[]){//Metodo Main que marca el inicio de la aplicacion java.
-        int x = 8;
-        
-       System.out.println(x);
-    }	
-}

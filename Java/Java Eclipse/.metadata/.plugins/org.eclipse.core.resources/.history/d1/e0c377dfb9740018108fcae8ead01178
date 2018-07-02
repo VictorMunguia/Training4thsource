@@ -1,9 +1,0 @@
-package polimorfismoBasic;
-
-public class pescado extends animales {
-	
-	public void ruido() {
-		System.out.println("GLUU GLUU GLUU!!!");
-	}
-
-}

@@ -1,8 +1,0 @@
-
-public class multiplesClases {
-	public static void main(String[] args) {
-		multiplesClasesClase2 c1 = new multiplesClasesClase2();
-		
-		c1.simpleMessage();
-	}
-}

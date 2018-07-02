@@ -1,9 +1,0 @@
-package polimorfismoBasic;
-
-public class puerco extends animales {
-	
-	public void ruido() {
-		System.out.println("OING OING OING!!!");
-	}
-
-}

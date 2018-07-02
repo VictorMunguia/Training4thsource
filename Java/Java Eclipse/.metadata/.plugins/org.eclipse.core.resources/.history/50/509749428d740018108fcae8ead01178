@@ -1,7 +1,0 @@
-
-public class toString3 {
-	private String name;
-	private toString cumpleanos;//Este atributo es el tipo toString que es la clase que icimos previamente
-	
-
-}

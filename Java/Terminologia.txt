@@ -157,12 +157,21 @@ de lectura y escritura, incluso es posible en el metodo de escritura poner valid
 
 
 TERMINOLOGIA SPRINT------------------------
+FRAMEWORK:
+Marco de trabajo que nos facilita el desarollo de software, nos proporciona un esqueleto, patron que el programador debe seguir, preocupandoce solo de la
+codificacion.
 
+SPRINT:
+Salio al mercado en el ano 2004 con la vercion 1.0,sptring boot lo que nos permite, es configurar el proyecto de manera automatica, mientras que el 
+spring framework nos prove de inyeccion de dependencia, acceso a datos, web mvc, rest etc...
 
+IYECCION DE DEPENDENCIAS:
 Anteriormente se tenian que realizar la creacion e los objetos de manera manual, utilizando el codigo new, si por ejemplo alguna otra persona en un equipo
 crea una vercion nueva de una clase, todos los objetos que fueron creados es necesario cambiar el nombre de la clase cuando son inicialisados para que 
-el objeto sea creado del mismo tipo. Ahora con la llegada de sprin, crea todo los objetos al arrancar la apluicacion y los mete dentro de su contanier, a la hora de 
+el objeto sea creado del mismo tipo. Ahora con la llegada de sprin, crea todo los objetos al arrancar la aplicacion y los mete dentro de su contanier, a la hora de 
 acer uso de neustro objetos simplemente invocamos el uso de inyeccion de dependencias, los objetos que estan guardados dentro del contenedor Spring los podemos llamar
 beans.
 
-INYECTANDO DEPENDENCIAS:
+MOTOR DE PLANTILLAS THYMELEAF:
+Es un generador de vistas del servidor, esto significa que delegamos al servidor la creacion de plantillas que devolvera el HTMl ya montaod en el
+navegador, esto sirve para separar la logica dle front del back. 

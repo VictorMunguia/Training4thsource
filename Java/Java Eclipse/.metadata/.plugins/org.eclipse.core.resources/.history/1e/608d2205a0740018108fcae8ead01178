@@ -1,8 +1,0 @@
-
-public class herencia2 extends herencia {
-	
-	public void sobreEscritura() {
-		System.out.println("Vengo desde herencia y sobrescribi en herencia2");
-	}
-
-}
