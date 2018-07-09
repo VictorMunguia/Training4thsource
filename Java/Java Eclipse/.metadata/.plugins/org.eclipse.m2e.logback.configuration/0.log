@@ -1698,3 +1698,4 @@
 2018-07-02 17:30:17,404 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 18 resources
 2018-07-02 17:30:17,459 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-07-02 17:30:17,493 [Worker-176] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\vMunguia\Desktop\All items\Training\Java\Java Eclipse\backendvictor\src\test\resources
+2018-07-02 17:59:54,956 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
