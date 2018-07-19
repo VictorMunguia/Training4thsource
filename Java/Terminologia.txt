@@ -161,8 +161,18 @@ FRAMEWORK:
 Marco de trabajo que nos facilita el desarollo de software, nos proporciona un esqueleto, patron que el programador debe seguir, preocupandoce solo de la
 codificacion.
 
+CICLO DE VIDA DE UNA APLLICACION MAVEN:
+El ciclo de vida de una aplicacion maven sigue los siguientes pasos: Compile, ejecutando asi todas las fuentes de nuestro projecto. Tenemos despues un Test, luego empaqueta nuestro proyecto
+En el formato indicado, luego realiza un install, instalandolo en un repositorio local finalmente hace un deploy desplegando la aplicacion.
+
+Compile
+TEST
+PACKAGE
+INSTALL
+DEPLOY
+
 SPRINT:
-Salio al mercado en el ano 2004 con la vercion 1.0,sptring boot lo que nos permite, es configurar el proyecto de manera automatica, mientras que el 
+Salio al mercado en el año 2004 con la vercion 1.0,sptring boot lo que nos permite, es configurar el proyecto de manera automatica, mientras que el 
 spring framework nos prove de inyeccion de dependencia, acceso a datos, web mvc, rest etc...
 
 IYECCION DE DEPENDENCIAS:

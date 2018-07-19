@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Formulario para agregar</title>
+</head>
+<body>
+    <form action="#" th:action="@{/example3/addperson}" th:object="${objetoPersonMandar}" method="post">
+        <!-- El action del formulario lo ignora y pone un action del thyleaft el cual dice que mandara la informacion a ese link, el siguietne dice que trae el objeto
+        objetoPersonMandar para minalmente usar un meoto post el cual significa obtener informacion. objetoPersonMandar es sobre escrito con los atributos de abajo y es mandado
+        al link que tenemos en th:action-->
+            <p>Nombre <Input type="text" th:field="*{name}"/></p>
+            <p>Edad <Input type="number" th:field="*{age}"/></p>
+            <p>GENERO <Input type="text" th:field="*{Sexo}"/></p>
+            <p><Input type="submit" value="submit"/></p>
+            <!-- Finalmente el boton trae un tipo submite el cual al darle click se manda al link que se especifico arriba. -->
+    </form>
+</body>
+</html>
