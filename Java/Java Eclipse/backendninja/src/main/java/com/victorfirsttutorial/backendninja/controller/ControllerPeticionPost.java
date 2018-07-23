@@ -1,9 +1,12 @@
 package com.victorfirsttutorial.backendninja.controller;
 
+import javax.validation.Valid;
+
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -39,18 +42,25 @@ public class ControllerPeticionPost {
 	
 	@GetMapping("/showForm")
 	public String showForm(Model model) {
-		LOGGER.info("INFO TRACE");//Estos mensajes nos ayudan a reconocer errores en el software, poniendo el tipo que es y entre comillas el mensaje.
-		LOGGER.warn("WARNING TRACE");
-		LOGGER.error("ERROR TRACE");
+		//LOGGER.info("INFO TRACE");//Estos mensajes nos ayudan a reconocer errores en el software, poniendo el tipo que es y entre comillas el mensaje.
+		//LOGGER.warn("WARNING TRACE");
+		//LOGGER.error("ERROR TRACE");
 		model.addAttribute("objetoPersonMandar", new Person());//Se esta inicializando un objeto persona pero vacio, debido al constructor que se sobrecarga en el modelo.
 		return FORM_VIEW;
 	}
 	
 	
 	@PostMapping("/addperson")
-	public ModelAndView addPerson(@ModelAttribute("objetoPersonMandar") Person personObjetoMetodo) {//Este resive el objeto con ModelAttribute del tipo person
-		ModelAndView mav = new ModelAndView(RESULT_VIEW);
-		mav.addObject("person", personObjetoMetodo);
+	public ModelAndView addPerson(@Valid @ModelAttribute("objetoPersonMandar") Person personObjetoMetodo, BindingResult bindingResult) {//Este resive el objeto con ModelAttribute del tipo person
+		//Se le agrego a esta linea un @Valid que sirve para abilitar las validaciones del modelo y un BindingResult, el cual sirve para mostrar los errores que podrian traer los formularios.
+		ModelAndView mav = new ModelAndView();
+		if(bindingResult.hasErrors()) {
+			mav.setViewName(FORM_VIEW);
+		}else {
+			mav.setViewName(RESULT_VIEW);
+			mav.addObject("person", personObjetoMetodo);
+			
+		}
 		return mav;
 	}
 

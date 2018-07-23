@@ -10,7 +10,9 @@
         objetoPersonMandar para minalmente usar un meoto post el cual significa obtener informacion. objetoPersonMandar es sobre escrito con los atributos de abajo y es mandado
         al link que tenemos en th:action-->
             <p>Nombre <Input type="text" th:field="*{name}"/></p>
+            <p th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name has errors</p>
             <p>Edad <Input type="number" th:field="*{age}"/></p>
+            <p th:if="${#fields.hasErrors('age')}" th:errors="*{age}">Age has errors</p>
             <p>GENERO <Input type="text" th:field="*{Sexo}"/></p>
             <p><Input type="submit" value="submit"/></p>
             <!-- Finalmente el boton trae un tipo submite el cual al darle click se manda al link que se especifico arriba. -->
