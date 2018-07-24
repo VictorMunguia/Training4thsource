@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Lista de personas</title>
+</head>
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Descripcion</th>
+                <th>Horas</th>
+                <th>Nombre</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody th:each="curso: ${cursos}">
+            <tr>
+                <th th:text="${curso.id}"></th>
+                <th th:text="${curso.descripcion}"></th>
+                <th th:text="${curso.horas}"></th>
+                <th th:text="${curso.nombre}"></th>
+                <th th:text="${curso.precio}"></th>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <form action="#" th:action="@{/cursos/addcurso}" th:object="${objetoCursoMandar}" method="post">
+        <!-- El action del formulario lo ignora y pone un action del thyleaft el cual dice que mandara la informacion a ese link, el siguietne dice que trae el objeto
+        objetoPersonMandar para minalmente usar un meoto post el cual significa obtener informacion. objetoPersonMandar es sobre escrito con los atributos de abajo y es mandado
+        al link que tenemos en th:action-->
+            <p>Nombre <Input type="text" th:field="*{name}"/></p>
+            <p th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name has errors</p>
+            <p>Edad <Input type="number" th:field="*{age}"/></p>
+            <p th:if="${#fields.hasErrors('age')}" th:errors="*{age}">Age has errors</p>
+            <p>GENERO <Input type="text" th:field="*{Sexo}"/></p>
+            <p><Input type="submit" value="submit"/></p>
+            <!-- Finalmente el boton trae un tipo submite el cual al darle click se manda al link que se especifico arriba. -->
+    </form>
+
+</body>
+</html>

@@ -1,4 +1,4 @@
-TERMINOLOGIA JAVA---------------------------
+﻿TERMINOLOGIA JAVA---------------------------
 
 METODO MAIN:
 El metodo main en java es un estandar que se utiliza por la maquina virtual
@@ -184,4 +184,47 @@ beans.
 
 MOTOR DE PLANTILLAS THYMELEAF:
 Es un generador de vistas del servidor, esto significa que delegamos al servidor la creacion de plantillas que devolvera el HTMl ya montaod en el
-navegador, esto sirve para separar la logica dle front del back. 
+navegador, esto sirve para separar la logica dle front del back.
+
+ESTABLECER UNA CONEXCION A LA BASE DE DATOS MYSQL:
+1.-Instalamos workbeanch, lo configuramos y finalmente creamos una base de datos como ejemplo a seguir para su
+respectiva creacion en spring.
+
+2.-Nos vamos al pom.xml de spring y pegamos las dependencias correspondientes
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+
+3.- Actualizamos el projecto en maven para hacer valer las dependencias que acabamos de anotar.
+
+4.- Nos vamos al application.yml y pegamos la siguiente configuracion
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mydb?useSSL=false
+    username: root
+    password: reiben00
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+
+tomar en cuenta que si es properties tendras que modificar el acomodo de los finalizados de linea
+pero todo es igual.
+
+5.-Creamos un nuevo paquete en java llamado entity y creamos una clase con el nombre de nuestra tabla
+
+6.-Establecemos la configuracion correspondiente(ver projecto para ver la configuracion)
+
+
+
+ 
