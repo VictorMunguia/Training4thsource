@@ -44,5 +44,6 @@ public class CursoServiceImpl implements CursoService {
 	public Curso updateCurse(Curso updateCurse) {
 		return cursoJpaRepositorio.save(updateCurse);
 	}
+	
 
 }

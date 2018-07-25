@@ -42,5 +42,19 @@ public class CursoController {
 		return "redirect:/cursos/listaCursos";
 		
 	}
+	
+	@PostMapping("/deletecurso")
+	public String deleteCurse(@ModelAttribute("curso") Curso curso) {
+		LOGGER.info("callC: " + "deleteCurse()");
+		cursoServicio.removeCurse(curso.getId());
+		return "redirect:/cursos/listaCursos";
+	}
+	
+	@PostMapping("/updatecurso")
+	public String updateCurso(@ModelAttribute("curso") Curso curso) {
+		LOGGER.info("callC: " + "updateCurso()");
+		cursoServicio.updateCurse(curso);
+		return "redirect:/cursos/listaCursos";
+	}
 
 }

@@ -28,15 +28,38 @@
     </table>
 
 
-    <form action="#" th:action="@{/cursos/addcurso}" th:object="${objetoCursoMandar}" method="post">
+    <form action="#" th:action="@{/cursos/addcurso}" th:object="${curso}" method="post">
         <!-- El action del formulario lo ignora y pone un action del thyleaft el cual dice que mandara la informacion a ese link, el siguietne dice que trae el objeto
         objetoPersonMandar para minalmente usar un meoto post el cual significa obtener informacion. objetoPersonMandar es sobre escrito con los atributos de abajo y es mandado
         al link que tenemos en th:action-->
-            <p>Nombre <Input type="text" th:field="*{name}"/></p>
-            <p th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name has errors</p>
-            <p>Edad <Input type="number" th:field="*{age}"/></p>
-            <p th:if="${#fields.hasErrors('age')}" th:errors="*{age}">Age has errors</p>
-            <p>GENERO <Input type="text" th:field="*{Sexo}"/></p>
+            <p>Descripcion <Input type="text" th:field="*{descripcion}"/></p>
+            <p>Horas <Input type="number" th:field="*{horas}"/></p>
+            <p>Nombre <Input type="text" th:field="*{nombre}"/></p>
+            <p>Precio <Input type="number" th:field="*{precio}"/></p>
+            <p><Input type="submit" value="submit"/></p>
+            <!-- Finalmente el boton trae un tipo submite el cual al darle click se manda al link que se especifico arriba. -->
+    </form>
+
+    <h1>DELET A CURSE WITH THE ID</h1>
+    <form action="#" th:action="@{/cursos/deletecurso}" th:object="${curso}" method="post">
+        <!-- El action del formulario lo ignora y pone un action del thyleaft el cual dice que mandara la informacion a ese link, el siguietne dice que trae el objeto
+        objetoPersonMandar para minalmente usar un meoto post el cual significa obtener informacion. objetoPersonMandar es sobre escrito con los atributos de abajo y es mandado
+        al link que tenemos en th:action-->
+            <p>ID <Input type="number" th:field="*{id}"/></p>
+            <p><Input type="submit" value="submit"/></p>
+            <!-- Finalmente el boton trae un tipo submite el cual al darle click se manda al link que se especifico arriba. -->
+    </form>
+
+    <h1>Update A CURSE WITH THE ID</h1>
+    <form action="#" th:action="@{/cursos/updatecurso}" th:object="${curso}" method="post">
+        <!-- El action del formulario lo ignora y pone un action del thyleaft el cual dice que mandara la informacion a ese link, el siguietne dice que trae el objeto
+        objetoPersonMandar para minalmente usar un meoto post el cual significa obtener informacion. objetoPersonMandar es sobre escrito con los atributos de abajo y es mandado
+        al link que tenemos en th:action-->
+            <p>ID <Input type="number" th:field="*{id}"/></p>
+            <p>Descripcion <Input type="text" th:field="*{descripcion}"/></p>
+            <p>Horas <Input type="number" th:field="*{horas}"/></p>
+            <p>Nombre <Input type="text" th:field="*{nombre}"/></p>
+            <p>Precio <Input type="number" th:field="*{precio}"/></p>
             <p><Input type="submit" value="submit"/></p>
             <!-- Finalmente el boton trae un tipo submite el cual al darle click se manda al link que se especifico arriba. -->
     </form>
