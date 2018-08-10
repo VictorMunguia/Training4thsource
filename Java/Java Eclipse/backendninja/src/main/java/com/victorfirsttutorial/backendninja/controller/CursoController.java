@@ -13,6 +13,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.victorfirsttutorial.backendninja.entity.Curso;
 import com.victorfirsttutorial.backendninja.service.CursoService;
+import com.victorfirsttutorial.backendninja.service.EstudianteService;
 
 @Controller
 @RequestMapping("/cursos")
@@ -26,12 +27,17 @@ public class CursoController {
 	@Qualifier("courseServiceImpl")
 	private CursoService cursoServicio;
 	
+	@Autowired
+	@Qualifier("estudianteServiceImpl")
+	private EstudianteService estudianteService;
+	
 	@GetMapping("/listaCursos")
 	public ModelAndView listAllCurses() {
 		LOGGER.info("callC: " + "listAllCurses()");
 		ModelAndView mav = new ModelAndView(COURSES_VIEW);
 		mav.addObject("curso", new Curso());
 		mav.addObject("cursos", cursoServicio.listAllCourses());
+		mav.addObject("estudiantes", estudianteService.ImprimirTodosEstudiantes());
 		return mav;
 	}
 	

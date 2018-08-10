@@ -19,7 +19,7 @@ public class Curso {
 
 
 	@Id//Especificamos que este parametro es el ID
-	@GeneratedValue//No se por que pero tambien va XD
+	@GeneratedValue//Esta anotacion permite generar automaticamente un valor para el ID de la base de datos.
 	@Column(name="id")//Especificamos el nombre del campo
 	private int id;
 	
